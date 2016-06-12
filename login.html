@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>登录</title>
+    <script src="script/jquery-1.12.3.min.js" charset="utf-8"></script>
+    <script src="script/login.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style/login.css" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body>
+    <div class="loginBox">
+        <div class="logoBox comWidth">
+            <a href="#"><img src="img/WB_logo_b.png" alt="" /></a>
+        </div>
+        <div class="loginMain comWidth clearfix">
+            <div class="adBox fl">
+                <a href="#"><img src="img/login_img.png" alt="" /></a>
+            </div>
+            <div class="loginForm fr">
+                <div class="loginShadow"></div>
+                <div class="loginCheck">
+                    <div class="bottom_block"></div>
+                    <span class="safe active">安全登录</span>
+                    <span class="user ">账号登录</span>
+                </div>
+                <div class="loginCheckBox">
+                    <div class="safeBox show">
+                        <span><img src="img/gen.png" alt="" class="genImg" />
+                            <p>
+                                还没有微博？ <a href="#">立即注册</a>
+                            </p>
+                        </span>
+                        <div class="saoyisao hide"></div>
+                    </div>
+                    <div class="userBox clearfix hide">
+                        <div class="errorUser error hide">
+                            <span class="errorbg "></span>
+                            <p>请输入登录名</p>
+                            <div class="sanjiao"></div>
+                        </div>
+                        <input class="userTxt" type="text" name="userName" value="" placeholder="邮箱/会员账号/手机号">
+                        <div class="errorPass error hide">
+                            <span class="errorbg"></span>
+                            <p>请输入密码</p>
+                            <div class="sanjiao"></div>
+                        </div>
+                        <input class="passBox" type="password" name="password" value="" placeholder="请输入密码">
+                        <span class="fl">
+                            <input class="checkB" type="checkbox" name="name" id="remember" value="记住我"><label class="remText" for="remember">记住我</label>
+                        </span>
+                        <span class="forget fr"><a href="#">忘记密码</a></span>
+                        <div class="loginBtn">
+                            登录
+                        </div>
+                        <p class="regLink">
+                            还没有微博？ <a href="#">立即注册</a>
+                        </p>
+                        <p class="ohterLogin">
+                            <span>其他登录方式</span>
+                            <a href="#" class="qq"></a>
+                            <a href="#" class="net"></a>
+                            <!-- <a href="#" class="qihu"></a>
+                            <a href="#" class="unk"></a>
+                            <a href="#" class="baidu"></a> -->
+                            <a href="#" class="jiantou"></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="appDown comWidth">
+            <a href="#" class="iphoneApp">iPhone客户端下载</a><a href="#" class="androidApp">Android客户端下载</a><a href="#" class="genApp">扫二维码下载</a>
+        </div>
+    </div>
+    <!-- 微博主体 -->
+    <div class="main clearfix comWidth">
+        <div class="leftArea fl">
+            <div class="weiboBox">
+                <div class="userInfoBox clearfix">
+                    <div class="userInfo_sm">
+                        <div class="userImg fl" title="Sakura">
+                            <a href="#"><img src="img/userImg2.jpg" alt="" /></a>
+                        </div>
+                        <div class="Info fl" title="Sakura">
+                            <h3 class="userTit"><a href="#">Sakura <img src="img/vipIcon2.png" alt="" /></a> <img src="img/lv_big.png" alt="" /></h3>
+                            <p class="time"><em>30秒</em>前 <em>来自</em> <em><a href="#">微博weibo.com</a></em></p>
+                        </div>
+                    </div>
+                    <div class="weiboText">
+                        <p>
+                            微博内容示例
+                        </p>
+                    </div>
+
+                </div>
+                <div class="weiboTool">
+                    <ul>
+                        <li><a href="#" class="collect iconNum">收藏</a></li>
+                        <li><a href="#" class="transportNum iconNum">转发</a></li>
+                        <li><a href="#" class="talkNum iconNum">评论</a></li>
+                        <li><a href="#" class="goodNum iconNum">赞</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="weiboBox">
+                <div class="userInfoBox clearfix">
+                    <div class="userInfo_sm">
+                        <div class="userImg fl" title="Sakura">
+                            <a href="#"><img src="img/userImg2.jpg" alt="" /></a>
+                        </div>
+                        <div class="Info fl" title="Sakura">
+                            <h3 class="userTit"><a href="#">Sakura <img src="img/vipIcon2.png" alt="" /></a> <img src="img/lv_big.png" alt="" /></h3>
+                            <p class="time"><em>30秒</em>前 <em>来自</em> <em><a href="#">微博weibo.com</a></em></p>
+                        </div>
+                    </div>
+                    <div class="weiboText">
+                        <p>
+                            微博内容示例
+                        </p>
+                    </div>
+
+                </div>
+                <div class="weiboTool">
+                    <ul>
+                        <li><a href="#" class="collect iconNum">收藏</a></li>
+                        <li><a href="#" class="transportNum iconNum">转发</a></li>
+                        <li><a href="#" class="talkNum iconNum">评论</a></li>
+                        <li><a href="#" class="goodNum iconNum">赞</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="weiboBox">
+                <div class="userInfoBox clearfix">
+                    <div class="userInfo_sm">
+                        <div class="userImg fl" title="Sakura">
+                            <a href="#"><img src="img/userImg2.jpg" alt="" /></a>
+                        </div>
+                        <div class="Info fl" title="Sakura">
+                            <h3 class="userTit"><a href="#">Sakura <img src="img/vipIcon2.png" alt="" /></a> <img src="img/lv_big.png" alt="" /></h3>
+                            <p class="time"><em>30秒</em>前 <em>来自</em> <em><a href="#">微博weibo.com</a></em></p>
+                        </div>
+                    </div>
+                    <div class="weiboText">
+                        <p>
+                            微博内容示例
+                        </p>
+                    </div>
+
+                </div>
+                <div class="weiboTool">
+                    <ul>
+                        <li><a href="#" class="collect iconNum">收藏</a></li>
+                        <li><a href="#" class="transportNum iconNum">转发</a></li>
+                        <li><a href="#" class="talkNum iconNum">评论</a></li>
+                        <li><a href="#" class="goodNum iconNum">赞</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="weiboBox">
+                <div class="userInfoBox clearfix">
+                    <div class="userInfo_sm">
+                        <div class="userImg fl" title="Sakura">
+                            <a href="#"><img src="img/userImg2.jpg" alt="" /></a>
+                        </div>
+                        <div class="Info fl" title="Sakura">
+                            <h3 class="userTit"><a href="#">Sakura <img src="img/vipIcon2.png" alt="" /></a> <img src="img/lv_big.png" alt="" /></h3>
+                            <p class="time"><em>30秒</em>前 <em>来自</em> <em><a href="#">微博weibo.com</a></em></p>
+                        </div>
+                    </div>
+                    <div class="weiboText">
+                        <p>
+                            微博内容示例
+                        </p>
+                    </div>
+
+                </div>
+                <div class="weiboTool">
+                    <ul>
+                        <li><a href="#" class="collect iconNum">收藏</a></li>
+                        <li><a href="#" class="transportNum iconNum">转发</a></li>
+                        <li><a href="#" class="talkNum iconNum">评论</a></li>
+                        <li><a href="#" class="goodNum iconNum">赞</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="weiboBox">
+                <div class="userInfoBox clearfix">
+                    <div class="userInfo_sm">
+                        <div class="userImg fl" title="Sakura">
+                            <a href="#"><img src="img/userImg2.jpg" alt="" /></a>
+                        </div>
+                        <div class="Info fl" title="Sakura">
+                            <h3 class="userTit"><a href="#">Sakura <img src="img/vipIcon2.png" alt="" /></a> <img src="img/lv_big.png" alt="" /></h3>
+                            <p class="time"><em>30秒</em>前 <em>来自</em> <em><a href="#">微博weibo.com</a></em></p>
+                        </div>
+                    </div>
+                    <div class="weiboText">
+                        <p>
+                            微博内容示例
+                        </p>
+                    </div>
+
+                </div>
+                <div class="weiboTool">
+                    <ul>
+                        <li><a href="#" class="collect iconNum">收藏</a></li>
+                        <li><a href="#" class="transportNum iconNum">转发</a></li>
+                        <li><a href="#" class="talkNum iconNum">评论</a></li>
+                        <li><a href="#" class="goodNum iconNum">赞</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="weiboBox">
+                <div class="userInfoBox clearfix">
+                    <div class="userInfo_sm">
+                        <div class="userImg fl" title="Sakura">
+                            <a href="#"><img src="img/userImg2.jpg" alt="" /></a>
+                        </div>
+                        <div class="Info fl" title="Sakura">
+                            <h3 class="userTit"><a href="#">Sakura <img src="img/vipIcon2.png" alt="" /></a> <img src="img/lv_big.png" alt="" /></h3>
+                            <p class="time"><em>30秒</em>前 <em>来自</em> <em><a href="#">微博weibo.com</a></em></p>
+                        </div>
+                    </div>
+                    <div class="weiboText">
+                        <p>
+                            微博内容示例
+                        </p>
+                    </div>
+
+                </div>
+                <div class="weiboTool">
+                    <ul>
+                        <li><a href="#" class="collect iconNum">收藏</a></li>
+                        <li><a href="#" class="transportNum iconNum">转发</a></li>
+                        <li><a href="#" class="talkNum iconNum">评论</a></li>
+                        <li><a href="#" class="goodNum iconNum">赞</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="weiboBox">
+                <div class="userInfoBox clearfix">
+                    <div class="userInfo_sm">
+                        <div class="userImg fl" title="Sakura">
+                            <a href="#"><img src="img/userImg2.jpg" alt="" /></a>
+                        </div>
+                        <div class="Info fl" title="Sakura">
+                            <h3 class="userTit"><a href="#">Sakura <img src="img/vipIcon2.png" alt="" /></a> <img src="img/lv_big.png" alt="" /></h3>
+                            <p class="time"><em>30秒</em>前 <em>来自</em> <em><a href="#">微博weibo.com</a></em></p>
+                        </div>
+                    </div>
+                    <div class="weiboText">
+                        <p>
+                            微博内容示例
+                        </p>
+                    </div>
+
+                </div>
+                <div class="weiboTool">
+                    <ul>
+                        <li><a href="#" class="collect iconNum">收藏</a></li>
+                        <li><a href="#" class="transportNum iconNum">转发</a></li>
+                        <li><a href="#" class="talkNum iconNum">评论</a></li>
+                        <li><a href="#" class="goodNum iconNum">赞</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="weiboBox">
+                <div class="userInfoBox clearfix">
+                    <div class="userInfo_sm">
+                        <div class="userImg fl" title="Sakura">
+                            <a href="#"><img src="img/userImg2.jpg" alt="" /></a>
+                        </div>
+                        <div class="Info fl" title="Sakura">
+                            <h3 class="userTit"><a href="#">Sakura <img src="img/vipIcon2.png" alt="" /></a> <img src="img/lv_big.png" alt="" /></h3>
+                            <p class="time"><em>30秒</em>前 <em>来自</em> <em><a href="#">微博weibo.com</a></em></p>
+                        </div>
+                    </div>
+                    <div class="weiboText">
+                        <p>
+                            微博内容示例
+                        </p>
+                    </div>
+
+                </div>
+                <div class="weiboTool">
+                    <ul>
+                        <li><a href="#" class="collect iconNum">收藏</a></li>
+                        <li><a href="#" class="transportNum iconNum">转发</a></li>
+                        <li><a href="#" class="talkNum iconNum">评论</a></li>
+                        <li><a href="#" class="goodNum iconNum">赞</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="weiboBox">
+                <div class="userInfoBox clearfix">
+                    <div class="userInfo_sm">
+                        <div class="userImg fl" title="Sakura">
+                            <a href="#"><img src="img/userImg2.jpg" alt="" /></a>
+                        </div>
+                        <div class="Info fl" title="Sakura">
+                            <h3 class="userTit"><a href="#">Sakura <img src="img/vipIcon2.png" alt="" /></a> <img src="img/lv_big.png" alt="" /></h3>
+                            <p class="time"><em>30秒</em>前 <em>来自</em> <em><a href="#">微博weibo.com</a></em></p>
+                        </div>
+                    </div>
+                    <div class="weiboText">
+                        <p>
+                            微博内容示例
+                        </p>
+                    </div>
+
+                </div>
+                <div class="weiboTool">
+                    <ul>
+                        <li><a href="#" class="collect iconNum">收藏</a></li>
+                        <li><a href="#" class="transportNum iconNum">转发</a></li>
+                        <li><a href="#" class="talkNum iconNum">评论</a></li>
+                        <li><a href="#" class="goodNum iconNum">赞</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="weiboBox">
+                <div class="userInfoBox clearfix">
+                    <div class="userInfo_sm">
+                        <div class="userImg fl" title="Sakura">
+                            <a href="#"><img src="img/userImg2.jpg" alt="" /></a>
+                        </div>
+                        <div class="Info fl" title="Sakura">
+                            <h3 class="userTit"><a href="#">Sakura <img src="img/vipIcon2.png" alt="" /></a> <img src="img/lv_big.png" alt="" /></h3>
+                            <p class="time"><em>30秒</em>前 <em>来自</em> <em><a href="#">微博weibo.com</a></em></p>
+                        </div>
+                    </div>
+                    <div class="weiboText">
+                        <p>
+                            微博内容示例
+                        </p>
+                    </div>
+
+                </div>
+                <div class="weiboTool">
+                    <ul>
+                        <li><a href="#" class="collect iconNum">收藏</a></li>
+                        <li><a href="#" class="transportNum iconNum">转发</a></li>
+                        <li><a href="#" class="talkNum iconNum">评论</a></li>
+                        <li><a href="#" class="goodNum iconNum">赞</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="rightArea fr">
+            <!-- 热门话题 -->
+            <div class="hotTalk">
+                <div class="talkTit "><a href="#">热门话题</a>
+                    <p class="refuse fr"><a href="#">换一换</a></p>
+                </div>
+                <div class="talkList">
+                    <ul>
+                        <li><a href="#">#随手拍美食#</a><em>推荐</em></li>
+                        <li><a href="#">#欢乐颂#</a><em>25.3亿</em></li>
+                        <li><a href="#">#特工皇妃楚乔传#</a><em>7371万</em></li>
+                        <li><a href="#">#魏则西百度推广事件#</a><em>8261万</em></li>
+                        <li><a href="#">#你好五月#</a><em>1亿</em></li>
+                        <li><a href="#">#马来西亚旅行#</a><em>1189万</em></li>
+                        <li><a href="#">#新加坡旅行#</a><em>2018万</em></li>
+                        <li><a href="#">#公路之歌#</a><em>667万</em></li>
+                        <li><a href="#">#游香港拒购物被打#</a><em>19万</em></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
